@@ -5,10 +5,9 @@ draft: true
 ---
 
 # TO BE REVIEWED!
+###### 1st review 16/06/2026
 
-# 👋 Welcome to the Course: Application Development with LLM Open and Apache Open Serverless
-
-A mileage title worthy of Wertmüller — but for friends, it's simply the **Mastro GPT Course**.
+# 👋 Welcome to the Course: Application Development with Apache Open Serverless
 
 ---
 
@@ -22,7 +21,7 @@ To start working, launch the development environment.
 3. Select **"Create codespace on main"**.
 4. Wait for it to start (takes some time the first time).
 
-> This is the environment used for the course. It's convenient and preconfigured for both training and development.
+This is the environment used for the course. It's convenient and preconfigured for both training and development.
 
 ---
 
@@ -45,12 +44,7 @@ Once your Codespace is running, take note of these key icons in the sidebar:
 4. You should see the message:
 
 You have successfully logged in. You can now use Open Serverless.
-
-yaml
-Copy
-Edit
-
-This concludes the initial setup. This is **Lesson Zero**, a pre-lesson to verify that everything works.
+This concludes the initial setup.
 
 ---
 
@@ -81,109 +75,108 @@ If you don’t see the **Open in browser** button:
 
 ## 🤖 Step 6: Meet "Pinocchio" — The User Interface
 
-The web frontend is named **Pinocchio**, a reference to Mastro Geppetto.
-
+The web frontend is named **Pinocchio**, a reference to Carlo Collodi's book.
 ### Default login credentials:
 - **Username**: Pinocchio
 - **Password**: Geppetto (or vice versa)
 
-> You’ll be prompted to change it. Here’s how.
+You’ll be prompted to change it.
 
 ---
 
 ## 🔁 Step 7: Change the Password (via Terminal)
 
-1. Open the terminal:  
-Terminal → New Terminal
+1. Open the terminal: Terminal → New Terminal
 
 2. Run the following command:
 
-bash
-obs ai user update Pinocchio
-Enter your new password.
+```ops ai user update Pinocchio```
 
-Redeploy the login service:
+3. Enter your new password.
 
-bash
-Copy
-Edit
-obs deploy mastrogpt-login
+4. Redeploy the login service:
+
+```ops ide deploy mastrogpt-login```
+
 This shows how command-line tools can be used instead of the GUI for advanced operations.
 
-🧑‍💻 Step 8: Tour the Interface Features
-Pinocchio is a multi-chat UI developed in Python. You won't need to change the UI — you'll build backend logic for chat apps.
+## 🧑‍💻 Step 8: Tour the Interface Features
+
+> Pinocchio is a multi-chat UI developed in Python. You won't need to change the UI — you'll build backend logic for chat apps.
 
 Available chats:
+
 hello: Responds with a greeting.
 
 demo: Demonstrates Pinocchio’s interface features:
 
-Code rendering
+- Code rendering
 
-HTML view
+- HTML view
 
-Chessboard display
+- Chessboard display
 
-Forms and form submissions
+- Forms and form submissions
 
-Document uploads
+- Document uploads
 
-Custom side views
+- Custom side views
 
 Everything is extendable and customizable.
 
-🧪 Step 9: View the Slides
+## 🧪 Step 9: View the Slides
+
 To view this lesson's materials:
 
-Click the 📄 Docs icon.
+1. Click the 📄 Docs icon.
 
-Navigate to the lessons/ folder.
+2. Navigate to the lessons/folder.
 
-Open the lesson markdown file.
+3. Open the lesson markdown file.
 
-Use the Preview tab to view the slide.
+4. Use the Preview tab to view the slide.
 
-Use Source to copy exercises or commands.
+5. Use Source to copy exercises or commands.
 
-💡 Step 10: Tips for Codespaces
-To avoid wasting free hours:
+## 💡 Step 10: Tips for Codespaces
 
-Go to GitHub → Settings → Codespaces.
+To avoid wasting the free hours of Github Codespaces:
 
-Set Auto-off timeout to 5–10 minutes.
+1. Go to GitHub → Settings → Codespaces.
 
-Optionally switch from VS Code web to VS Code desktop.
+2. Set Auto-off timeout to 5–10 minutes.
+
+3. Optionally switch from VS Code web to VS Code desktop.
 
 Alternatively, install and run everything locally using Docker.
 
-We can organize a dedicated lesson on local installation if needed.
-
-☁️ Step 11: Open Serverless Services
+## ☁️ Step 11: Open Serverless Services
 Your environment includes:
 
-Redis
+- Redis
 
-MinIO
+- MinIO
 
-PostgreSQL (not required for this course)
+- PostgreSQL (not required for this course)
 
 You can deploy apps on:
 
-AWS
+- AWS
 
-Google Cloud
+- Google Cloud
 
-Azure
+- Azure
 
-Akamai
+- Akamai
 
-Hetzner
+- Hetzner
 
-Ubuntu
+- Ubuntu
 
-OpenShift
+- OpenShift
 
-🆘 Step 12: Get Support
+## 🆘 Step 12: Get Support
+
 You can request your free account or support via:
 
 🌐 Website: https://mastrogpt.com
@@ -196,15 +189,16 @@ You can request your free account or support via:
 
 🗣️ Reddit: Ask questions and join the discussion
 
-▶️ Step 13: Start Lesson 1
+## ▶️ Step 13: Start Lesson 1
+
 Now that everything is set up:
 
-Go back to the Cloud icon.
+1. Go back to the Cloud icon.
 
-Click Lessons.
+2. Click Lessons.
 
-Select Lesson 1.
+3. Select Lesson 1.
 
-All lesson files will be downloaded automatically.
+4. All lesson files will be downloaded automatically.
 
 You're now ready to start building!
