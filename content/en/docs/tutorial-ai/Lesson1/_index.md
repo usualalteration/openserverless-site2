@@ -5,11 +5,13 @@ draft: true
 ---
 
 # TO BE REVIEWED!
+###### 1st review 17/06/2026
 
+> ✅ _Lesson 0_ was the environment setup. _Lesson 1_ is the **first real lesson** of the course.
 
 # 📘 Lesson 1 – Integrated Services & First Exercise
 
-Welcome! After launching and configuring your environment, ensure you're **logged in** to begin.
+After launching and configuring your environment, ensure you're **logged in** to begin.
 
 ---
 
@@ -18,8 +20,6 @@ Welcome! After launching and configuring your environment, ensure you're **logge
 1. In the extension, select **Lesson 1** from the sidebar.
 2. This will automatically download all lesson files.
 3. You can preview the new lesson by selecting the markdown file under `lessons/`.
-
-> ✅ _Lesson 0_ was the environment setup. _Lesson 1_ is the **first real lesson** of the course.
 
 ---
 
@@ -56,13 +56,13 @@ The `hello` package includes small examples demonstrating system services:
 
 ```bash
 # Deploy the fixed code
-obs deploy
+ops ide deploy
 
 # Or just redeploy the specific action
-obs ide deploy hello-llm
+ops ide deploy hello-llm
 ```
 
-> Enable **Dev Mode** (Devil) for automatic deploy on save.
+> Enable **Dev Mode** for automatic deploy on save.
 
 ---
 
@@ -114,18 +114,18 @@ After deployment, you’ll get a **custom URL**. Login with your user credential
 
 ## 🔧 Command-Line Tools (OBS CLI)
 
-Use `obs` or `oops` for CLI actions. Common subcommands:
+Use `ops` for CLI actions. Common subcommands:
 
 ```bash
-obs ai lesson            # download lessons
-obs ai user              # manage users
-obs ai chat <svc>        # chat with an LLM from CLI
-obs ide deploy <action>  # deploy a single action
-obs action delete <svc>  # delete an action
-obs clean                # cleanup temp files
+ops ai lesson            # download lessons
+ops ai user              # manage users
+ops ai chat <svc>        # chat with an LLM from CLI
+ops ide deploy <action>  # deploy a single action
+ops action delete <svc>  # delete an action
+ops clean                # cleanup temp files
 ```
 
-> `obs ai chat` is a terminal version of the web chat.
+> `ops ai chat` is a terminal version of the web chat.
 
 ---
 
@@ -155,7 +155,7 @@ packages/
 4. Deploy:
 
 ```bash
-obs deploy
+ops deploy
 ```
 
 5. Add to UI:
@@ -167,7 +167,7 @@ obs deploy
 6. Redeploy the index:
 
 ```bash
-obs ide deploy mastrogpt-index
+ops ide deploy mastrogpt-index
 ```
 
 7. Try it in the web UI:  
@@ -213,4 +213,4 @@ Next lessons will:
 - Cover vision models and embeddings
 - Show full-stack app development using Open Serverless
 
-Happy hacking! 🧪🤖
+Happy coding! 🧪🤖
