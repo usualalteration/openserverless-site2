@@ -4,8 +4,6 @@ weight: 10
 draft: true
 ---
 
-# TO BE REVIEWED!
-
 > _Lesson 1_ introduced the first services and a simple chat action. _Lesson 2_ shows how to call an LLM directly and stream its answer through Open Serverless.
 
 # Lesson 2 – LLM Access, Secrets & Streaming
@@ -24,9 +22,9 @@ You will learn:
 
 ## Preparing the Environment
 
-Start from the Mastro GPT starter repository as in the previous lessons.
+Start from the MastroGPT starter repository as in the previous lessons.
 
-1. Open the Mastro GPT GitHub organization.
+1. Open the MastroGPT GitHub organization.
 2. Fork the starter repository into your own account.
 3. Create a Codespace from your fork.
 4. Log in from the Open Serverless extension using your course credentials.
