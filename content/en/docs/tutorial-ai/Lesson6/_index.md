@@ -4,8 +4,6 @@ weight: 10
 draft: true
 ---
 
-# TO BE RERGANIZED AND REVIEWED!
-
 > _Lesson 5_ introduced vision models and S3 storage. _Lesson 6_ introduces embeddings and vector databases.
 
 # Lesson 6 - Embeddings & Vector Databases
