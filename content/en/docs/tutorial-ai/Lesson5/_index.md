@@ -3,8 +3,6 @@ title: Lesson 5
 weight: 60
 ---
 
-# TO BE RERGANIZED AND REVIEWED!
-
 > _Lesson 4_ introduced stateful assistants with Redis. _Lesson 5_ adds computer vision and object storage.
 
 # Lesson 5 - Vision Models & S3 Storage
