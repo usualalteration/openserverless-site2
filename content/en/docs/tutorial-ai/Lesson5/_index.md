@@ -1,7 +1,6 @@
 ---
 title: Lesson 5
-weight: 10
-draft: true
+weight: 60
 ---
 
 # TO BE RERGANIZED AND REVIEWED!

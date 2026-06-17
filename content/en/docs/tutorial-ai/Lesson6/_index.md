@@ -1,7 +1,6 @@
 ---
 title: Lesson 6
-weight: 10
-draft: true
+weight: 70
 ---
 
 > _Lesson 5_ introduced vision models and S3 storage. _Lesson 6_ introduces embeddings and vector databases.

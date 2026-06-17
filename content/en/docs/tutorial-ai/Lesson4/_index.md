@@ -1,7 +1,6 @@
 ---
 title: Lesson 4
-weight: 10
-draft: true
+weight: 50
 ---
 
 > _Lesson 3_ introduced authentication, forms, and custom displays. _Lesson 4_ builds a stateful assistant that remembers the conversation.

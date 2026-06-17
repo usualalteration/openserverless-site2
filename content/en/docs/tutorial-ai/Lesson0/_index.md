@@ -1,7 +1,6 @@
 ---
 title: Lesson 0
 weight: 10
-draft: true
 ---
 
 # Welcome to the Course: Application Development with Apache Open Serverless

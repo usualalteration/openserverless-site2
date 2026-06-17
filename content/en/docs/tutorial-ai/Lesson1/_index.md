@@ -1,7 +1,6 @@
 ---
 title: Lesson 1
-weight: 10
-draft: true
+weight: 20
 ---
 
 

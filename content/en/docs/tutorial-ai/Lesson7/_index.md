@@ -1,7 +1,6 @@
 ---
 title: Lesson 7
-weight: 10
-draft: true
+weight: 80
 ---
 
 > _Lesson 6_ introduced embeddings and vector search. _Lesson 7_ combines them with LLM generation to build a RAG system.

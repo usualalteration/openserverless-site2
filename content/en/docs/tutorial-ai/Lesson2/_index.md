@@ -1,7 +1,6 @@
 ---
 title: Lesson 2
-weight: 10
-draft: true
+weight: 30
 ---
 
 > _Lesson 1_ introduced the first services and a simple chat action. _Lesson 2_ shows how to call an LLM directly and stream its answer through Open Serverless.

@@ -1,7 +1,6 @@
 ---
 title: Lesson 3
-weight: 10
-draft: true
+weight: 40
 ---
 
 > _Lesson 2_ introduced LLM access, secrets, and streaming. _Lesson 3_ adds authenticated web actions, structured forms, and custom displays.
