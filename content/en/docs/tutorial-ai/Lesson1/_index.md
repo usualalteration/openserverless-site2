@@ -4,18 +4,16 @@ weight: 10
 draft: true
 ---
 
-# TO BE REVIEWED!
-###### 1st review 17/06/2026
 
-> ✅ _Lesson 0_ was the environment setup. _Lesson 1_ is the **first real lesson** of the course.
+> _Lesson 0_ was the environment setup. _Lesson 1_ is the **first real lesson** of the course.
 
-# 📘 Lesson 1 – Integrated Services & First Exercise
+# Lesson 1 – Integrated Services & First Exercise
 
 After launching and configuring your environment, ensure you're **logged in** to begin.
 
 ---
 
-## 📥 Downloading the Lesson
+## Downloading the Lesson
 
 1. In the extension, select **Lesson 1** from the sidebar.
 2. This will automatically download all lesson files.
@@ -23,7 +21,7 @@ After launching and configuring your environment, ensure you're **logged in** to
 
 ---
 
-## 🧰 Included "Hello" Examples
+## Included "Hello" Examples
 
 The `hello` package includes small examples demonstrating system services:
 
@@ -40,17 +38,17 @@ The `hello` package includes small examples demonstrating system services:
 
 ---
 
-## ✅ Running and Fixing Tests
+## Running and Fixing Tests
 
-1. Run the tests (🧪 Tests tab).
+1. Run the tests (Tests tab).
 2. Two tests **intentionally fail**.
 3. Locate the `TODO` in the broken test.
 4. Example fix: change `"Hi"` to `"Hello"` and save.
 
 ### Why Tests Still Fail After Fix?
 
-- ✅ **Unit test** will pass immediately.
-- ❌ **Integration test** will still fail — it requires deployment!
+- **Unit test** will pass immediately.
+- **Integration test** will still fail — it requires deployment!
 
 ### Fix Integration Tests
 
@@ -66,13 +64,13 @@ ops ide deploy hello-llm
 
 ---
 
-## 🌐 Using the Deployed Examples
+## Using the Deployed Examples
 
 After deployment, you’ll get a **custom URL**. Login with your user credentials.
 
 ### Example Services Overview
 
-#### 1. 🤖 Alma (LLM)
+#### 1. Alma (LLM)
 
 - Powered by a 3.18B parameter model
 - Works in Italian and English
@@ -80,12 +78,12 @@ After deployment, you’ll get a **custom URL**. Login with your user credential
   - Ask: `What is the capital of Italy?`
   - Response: `Rome`
 
-#### 2. 🔄 Streamer
+#### 2. Streamer
 
 - Demonstrates streaming via slow ASCII output
 - Example: `Hi, how are you?` → streamed char-by-char
 
-#### 3. ⚡ Redis
+#### 3. Redis
 
 - Supports CLI-like interaction
 - Examples:
@@ -94,13 +92,13 @@ After deployment, you’ll get a **custom URL**. Login with your user credential
   keys *
   ```
 
-#### 4. 🗂️ Object Storage (MinIO)
+#### 4. Object Storage (MinIO)
 
 - S3-compatible local storage
 - Commands: list, insert (`+ key = value`), search, delete
 - Supports file upload via UI
 
-#### 5. 📚 Vector DB (Milvus)
+#### 5. Vector DB (Milvus)
 
 - Supports semantic search
 - Example:
@@ -112,7 +110,7 @@ After deployment, you’ll get a **custom URL**. Login with your user credential
 
 ---
 
-## 🔧 Command-Line Tools (OBS CLI)
+## Command-Line Tools (OBS CLI)
 
 Use `ops` for CLI actions. Common subcommands:
 
@@ -129,7 +127,7 @@ ops clean                # cleanup temp files
 
 ---
 
-## ✨ Creating a New Service: Reverse Text
+## Creating a New Service: Reverse Text
 
 ### Step-by-step: "Reverse Text" Chat App
 
@@ -175,7 +173,7 @@ ops ide deploy mastrogpt-index
 
 ---
 
-## 🧠 Edit Logic in Code
+## Edit Logic in Code
 
 File: `packages/messiah/reverse/main.py`
 
@@ -193,7 +191,7 @@ Use **Dev Mode** to auto-deploy as you edit.
 
 ---
 
-## ✅ Summary
+## Summary
 
 You now:
 
@@ -205,7 +203,7 @@ You now:
 
 ---
 
-## 🧑‍🏫 Up Next
+## Up Next
 
 Next lessons will:
 
@@ -213,4 +211,4 @@ Next lessons will:
 - Cover vision models and embeddings
 - Show full-stack app development using Open Serverless
 
-Happy coding! 🧪🤖
+Happy coding!
